@@ -46,9 +46,9 @@ describe('index.js', function () {
 
      describe('appendCat(name)', function () {
        it('appends a cat to the cats array and returns a new array, leaving the cats array unchanged', function () {
-         expect(appendCat("Broom")).to.have.ordered.members(["Milo", "Otis", "Garfield", "Broom"]);
+        expect(appendCat("Broom")).to.have.ordered.members(["Milo", "Otis", "Garfield", "Broom"]);
 
-         expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
+        expect(cats).to.have.ordered.members(["Milo", "Otis", "Garfield"]);
        });
      });
 
